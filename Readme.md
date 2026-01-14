@@ -82,4 +82,9 @@ Now just create Good form that we will use to handle this request using the requ
 Then just used the post application to treat the data from the form passing through their inputs
 e.g # username = requets.form.get('useranme') to get username from out form
 The used of form is mainly to get the items from the form in particular
-
+From the form.html  associated with 4.Forms_Post&Files.py we can now mainly manage a simple form
+Now let create a File upload and to better handle data
+In the same file let create a new form for our file_upload
+Now let render our upload data inside a Table
+to do this we gonna install and import the python module pandas
+e.g import pandas as pd
