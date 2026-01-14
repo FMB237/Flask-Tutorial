@@ -69,3 +69,17 @@ Now let handle the notion of filters which will mainly permit to handle other op
 Jinja2 has some build features that permits to facilitate some features like the uppercase and lowercase 
 Still when using Jinja2 we can build our now features in python
 Like a built a reverse string funtions to be used in the other.html file
+Now let move on to the used of dynamic URL in flask which can directly be insert inside our code
+Then Create a URL from index.html to other.html
+But before all that we need to import a module url_for in our python code
+So this method of using URL can permit constantly change url directions 
+
+# Lesson4:FORMS,POST,Files
+Here this how to handle Forms and files using POST requests.
+So let create a file for this form handling and other operations
+Create a Form Tag into the Html code and used the method POST
+Now just create Good form that we will use to handle this request using the request module from flask
+Then just used the post application to treat the data from the form passing through their inputs
+e.g # username = requets.form.get('useranme') to get username from out form
+The used of form is mainly to get the items from the form in particular
+
